@@ -1,0 +1,55 @@
+h1 {
+    color:red;
+}
+
+h3 {
+    color:red;
+}
+
+h4 {
+    color:white;
+    background-color: black;
+}
+
+
+.redBG {
+    background-color:red
+}
+
+
+
+.info {
+    color: black;
+    background-color:red;
+}
+
+.blackBG {
+    color:white;
+    background-color: black;
+}
+
+.spanstyle {
+    color:blue;
+}
+
+
+
+
+a { 
+    color:red; 
+    text-decoration: underline;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: yellow;
+}        
+
