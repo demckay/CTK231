@@ -1,0 +1,50 @@
+.customfont {
+    font-family: arial, Helvetica, sans-serfif;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+
+img.imgbox {
+        border: 10px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow; 
+}
+
+
+
+
+h1 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+h2 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+h3 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    color:orange;
+    font-style: italic;
+    font-weight: normal;
+}
