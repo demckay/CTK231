@@ -1,0 +1,86 @@
+body {
+    background-image: url(a5bg.png)
+}
+
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    display:block;
+    padding: 20px;
+    background-color: white;
+}
+
+.Textbox {
+    display:block;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.justified {
+    text-align: justify;
+}
+
+h2 {
+    font-family: helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+nav li {
+    border: 1px solid black;
+    width: 150px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: darkblue;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #4271c2;
+}
+
+
+
+a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration:underline;
+}
+
+
+
+footer {
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    text-align:center;
+    border: 5px solid white;
+    background-color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
