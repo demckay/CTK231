@@ -77,6 +77,47 @@ nav li a:hover {
 
 
 
+#myCarousel {
+  grid-column: span 12;   /* makes it full width */
+  width: 100%;            /* force it to stretch across wrapper */
+  height: 100%;
+  margin: 0;              
+  padding: 0;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee; 
+}
+
+#myCarousel .f-carousel__slide:nth-child(2) img {
+  max-height: 100%;
+  width: 100%;
+  
+  object-fit: contain;
+}
+
+.f-carousel {
+  --f-arrow-pos: 10px;
+
+  --f-arrow-width: 38px;
+  --f-arrow-height: 38px;
+
+  --f-arrow-svg-width: 16px;
+  --f-arrow-svg-height: 16px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #475569;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #fff;
+  --f-arrow-hover-bg: #f9f9f9;
+  --f-arrow-active-bg: #f0f0f0;
+}
+
 img {
   grid-column: span 12;
   display: block;
@@ -92,11 +133,28 @@ h2 {
 
 }
 
+h3 {
+  font-weight: bold;
+  color:black;
+  padding-bottom: 2px;
+  text-shadow: 2px 2px 2px #747474;
+  text-align: center;
+  size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 main {
   display: grid;
   grid-column: span 12;
   font-family:Georgia, 'Times New Roman', Times, serif
 }
+
+#projects{
+  grid-column: span 12;
+  
+}
+
 
 footer {
   display: grid;
@@ -114,3 +172,5 @@ footer a {
 footer a :hover {
   color:#454545;
 }
+
+
